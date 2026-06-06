@@ -1,0 +1,23 @@
+# Ignore Hugging Face Cache
+.cache/
+
+# Ignore Root Model Files (from the root Gemma 4 download)
+model.safetensors
+tokenizer.json
+config.json
+generation_config.json
+processor_config.json
+chat_template.jinja
+recipe.yaml
+README.md
+
+# Ignore Model Subfolders
+Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC/
+Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-NVFP4/
+Huihui-gemma-4-26B-A4B-it-abliterated-NVFP4/
+
+# Standard Python / OS ignores
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
